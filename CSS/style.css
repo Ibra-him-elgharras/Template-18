@@ -14,7 +14,7 @@ header{
     background-position: center;
     background-size: 40%;
     position: relative;
-    right: 31%;
+    right: 35%;
 }
 
 header nav{
@@ -93,3 +93,52 @@ header nav .navbar .logo img{
     border-right: 2px solid #2c3e50;
     padding: 0 5px 0 0;
 }
+
+.content{
+    position: absolute;
+    top: 33%;
+    left: 40%;
+    
+}
+
+.content .text{
+    font-size: 27px;
+    color: #2c3e50;
+}
+
+.content .name{
+    font-size: 75px;
+    color: #2c3e50;
+    margin: -20px 0 0 -3px;
+}
+
+.content .job{
+    font-size: 40px;
+    color: #2c3e50;
+    display: flex;
+}
+
+.content .job .typing-text{
+    color: #481de2;
+    margin-left: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 4px solid #481de2;
+    animation: typing 5s steps(15) infinite;
+    
+}
+
+@keyframes typing{
+    0%{
+        width: 0ch;
+    }
+
+    50%{
+        width: 15ch;
+    }
+
+    100%{
+        width: 0ch;
+    }
+}
+
